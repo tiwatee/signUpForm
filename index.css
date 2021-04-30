@@ -83,9 +83,9 @@ span.InvalidDisplay i.error{
     font-size: 10px;
     padding-top: 0;
 }
-/* span.InvalidDisplay{
+span.InvalidDisplay{
     display: none;
-} */
+}
 
 
 button{
