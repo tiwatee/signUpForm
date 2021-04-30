@@ -63,9 +63,13 @@ submit.addEventListener('click', function(){
     if (emailAddress.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)){
         invalidEmail.style.display="none"
         email.style.border='solid 1px hsl(246, 25%, 77%)'
+        email.classList.remove("email")
+        console.log(email.classList)
     } else{
         console.log("Email invalid")
         invalidEmail.style.display="block"
+        email.classList.add("email")
+        console.log(email.classList)
         //placeholder is changed to "email@example/com"
         email.placeholder="email@example/com" 
         email.style.border="solid 1px hsl(0, 100%, 74%)"

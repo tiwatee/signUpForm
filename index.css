@@ -63,11 +63,15 @@ input{
     border: solid 1px hsl(246, 25%, 77%);
     font-size: 13px;
     font-weight: 700;
+    /* color: gold; */
     
 }
-
+input.email::placeholder{
+    color: hsl(0, 100%, 74%);
+}
 input .name{
     position: absolute;
+    color: aquamarine;
 }
 span.icon{
     font-size: 20px;
