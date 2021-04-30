@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="top-content">
+      <div class="header"><h1>Learn to code by watching others</h1></div>
+      <div class="paragraph">
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </p>
+      </div>
+    </div>
+    
+
+    <div class="bottom-content">
+      <div class="top-info">
+        <span><b>Try it free 7 days</b> then $20/mo. thereafter</span>
+      </div>
+      <div class="forms">
+        <form>
+          
+          <div class="input-field">
+            <input type="text" placeholder="First Name" required class="name">
+            <span class="InvalidDisplay">
+              <span class="icon"><i class="fa fa-exclamation-circle"></i></span>
+              <i class="error">First Name cannot be blank</i>
+            </span>
+          </div>
+
+          <div class="input-field">
+            <input type="text" placeholder="Last Name" required class="name">
+            <span class="InvalidDisplay">
+              <span class="icon"><i class="fa fa-exclamation-circle"></i></span>
+              <i class="error">Last Name cannot be blank</i>
+            </span>
+          </div>
+
+          <div class="input-field">
+            <input type="text" placeholder="Email Address" required class="name">
+            <span class="InvalidDisplay">
+              <span class="icon"><i class="fa fa-exclamation-circle"></i></span>
+              <i class="error">Looks like this is not an email</i>
+            </span>
+          </div>
+
+          <div class="input-field">
+            <input type="text" placeholder="Password" required class="name">
+            <span class="InvalidDisplay">
+              <span class="icon"><i class="fa fa-exclamation-circle"></i></span>
+              <i class="error">Password cannot be empty</i>
+            </span>
+          </div>
+
+          <button>Claim your free trial </button>
+          <div class="Terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></div>
+        </form>
+   
+      </div>
+    </div>   
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/tiwatee">Tiwatee</a>.
+    </p>
+  </footer>
+</body>
+</html>
